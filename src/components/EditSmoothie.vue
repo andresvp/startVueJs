@@ -59,6 +59,7 @@ export default {
                 this.feedback = 'You must enter a smoothie title'
             }           
         },
+        
         addIng(){
             if(this.another){
                 this.smoothie.ingredients.push(this.another)
