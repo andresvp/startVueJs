@@ -59,7 +59,7 @@ export default {
                 this.feedback = 'You must enter a smoothie title'
             }           
         },
-        
+
         addIng(){
             if(this.another){
                 this.smoothie.ingredients.push(this.another)
@@ -69,6 +69,7 @@ export default {
                 this.feedback = "You must enter a value to add an ingredient"
             }
         },
+        
         deleteIng(ing){
             this.smoothie.ingredients = this.smoothie.ingredients.filter(ingredient => {
                 return ingredient != ing
